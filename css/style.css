@@ -1,0 +1,90 @@
+body{
+    font-family: 'Questrial', sans-serif;
+}
+
+.header{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav a:hover{
+    color: #4B0082;
+}
+
+.connect{
+    color: #000000;
+    text-decoration: none;
+}
+
+.connect img{
+    max-width: 5%;
+}
+
+.connect a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.blog a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.postcontainer{
+    display: flex;
+}
+
+.connect{
+    flex: 1;
+}
+
+.blog{
+    flex: 2;
+}
+
+.questioncontainer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.questioncontainer img{
+   width: 100%;
+}
+
+.restaurantpick{
+    border-right: 0.5px solid #A9A9A9;
+    text-align: center;
+}
+
+.askabi1, {
+    border-right: 0.5px solid #A9A9A9;
+    text-align: center;
+}
+
+.askabi2 {
+    border-right: 0.5px solid #A9A9A9;
+    text-align: center;
+}
+
+.askabi3{
+    text-align: center;
+}
+
+
+
