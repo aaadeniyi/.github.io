@@ -1,12 +1,16 @@
 body{
     font-family: 'Questrial', sans-serif;
+    background-color: lightgray;
 }
 
 .header{
     font-family: 'Permanent Marker', cursive;
     text-align: center;
     font-size: 30px;
-    padding: 20px;
+    padding: 10px;
+    margin-top: 1%;
+    background-color: #4B0082; 
+    color: #FFFFFF;
 }
 
 .nav{
@@ -15,6 +19,9 @@ body{
     text-align: center;
     padding-left: 40px;
     padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-weight: bolder;
 }
 
 .nav a{
@@ -40,9 +47,25 @@ body{
     color: #000000;
 }
 
+.archive{
+    padding-top: 30px;
+}
+
+.archive a:hover{
+    color: #4B0082;
+}
+
 .blog a{
     text-decoration: none;
     color: #000000;
+}
+
+.blog img{
+    width: 60%;
+}
+
+.blog h2{
+    font-family: 'Permanent Marker', cursive;
 }
 
 .postcontainer{
@@ -51,40 +74,79 @@ body{
 
 .connect{
     flex: 1;
+    padding-left: 35px;
 }
 
 .blog{
     flex: 2;
+    margin-left: -8%;
 }
 
 .questioncontainer{
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
+    background-color: #4B0082;
+    padding-bottom: 20px;
 }
 
 .questioncontainer img{
    width: 100%;
 }
 
-.restaurantpick{
-    border-right: 0.5px solid #A9A9A9;
+.restaurantrecco{
     text-align: center;
+    color:#ffffff;
 }
 
-.askabi1, {
-    border-right: 0.5px solid #A9A9A9;
-    text-align: center;
+.restaurantrecco h2{
+    font-family: 'Permanent Marker', cursive;
 }
 
-.askabi2 {
-    border-right: 0.5px solid #A9A9A9;
-    text-align: center;
+.restaurantrecco img{
+    max-height: 60%;
+    max-width: 60%;
 }
 
-.askabi3{
-    text-align: center;
+.restaurantrecco a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
+.askabi{
+    text-align: center;
+    color:#ffffff;
+}
 
+.askabi h2{
+    font-family: 'Permanent Marker', cursive;
+}
 
+.askabi a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.recipedupe{
+    text-align: center;
+    color:#ffffff;
+}
+    
+.recipedupe h2{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.recipedupe img{
+    max-height: 60%;
+    max-width: 60%;
+}
+
+.recipedupe a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.newsletter{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
